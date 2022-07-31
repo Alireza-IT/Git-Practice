@@ -32,4 +32,7 @@ big feature , junior developer or expertise in different area
 must be in stable version
 
 
+Delete branches after go to master and pull first
+
+git branch -d nameOfBranch
 
