@@ -26,6 +26,10 @@ we have dev branch and master branch
 dev branch is intermediary master, it's tested and features and bugfixes add into dev branch and end of sprint it will be added to the master
 
 only master branch is considered for continuous integration/delivery 
- 
+
+Merge Requests
+big feature , junior developer or expertise in different area 
+must be in stable version
+
 
 
