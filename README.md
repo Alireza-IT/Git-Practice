@@ -22,4 +22,10 @@ git pull --> to get latest changes
 git checkout nameOfBranch
 git checkout -b newBranch --> create new branch and switching to newBranch 
 
+we have dev branch and master branch 
+dev branch is intermediary master, it's tested and features and bugfixes add into dev branch and end of sprint it will be added to the master
+
+only master branch is considered for continuous integration/delivery 
+ 
+
 
