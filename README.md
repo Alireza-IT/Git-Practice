@@ -35,5 +35,5 @@ must be in stable version
 
 Delete branches after go to master and pull first
 
-git branch -d nameOfBranch
+git branch -d [nameOfBranch]
 
