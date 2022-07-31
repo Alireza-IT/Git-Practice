@@ -35,5 +35,8 @@ must be in stable version
 
 Delete branches after go to master and pull first
 
+git pull -r (rebase) --> to not get merge those new commit and replace my own commit overwrite the merge one (on top)
+then do the git push ..so avoid those unnecessary commit
+
 git branch -d [nameOfBranch]
 
