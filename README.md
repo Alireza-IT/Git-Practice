@@ -40,3 +40,10 @@ then do the git push ..so avoid those unnecessary commit
 
 git branch -d [nameOfBranch]
 
+for fixing the conflict we have to git rebase --continue after solving the conflict
+
+.gitignore--> we have to put build folder when compile code is needed so we need to put these files into .gitignore 
+build/*
+also best case is to not consider the dependencies file as well 
+git rm -r --cached [name of file or folder] if we want to ignore one file which already has been tracked by git.
+
