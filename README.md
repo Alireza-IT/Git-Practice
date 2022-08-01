@@ -47,3 +47,18 @@ build/*
 also best case is to not consider the dependencies file as well 
 git rm -r --cached [name of file or folder] if we want to ignore one file which already has been tracked by git.
 
+if having changes in this branch , need to move another branch but do not want to commit these changes because these changes are under process, so changing branches will be forbidden.
+so we do 
+git stash --> to save our changes and hide them to git and we are able to change branch 
+git stash pop
+another way we can hide changes to see if the application work without my changes or not (in case of doubts)
+
+History/Logs commit 
+useful for testing 
+we can checkout the commit and we are going back to application 
+git checkout [commithash] and we are in detached head
+we can create new branch based on these point of code (not very common way)
+go back to up to date state 
+git checkout nameofbranch 
+
+
