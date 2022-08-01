@@ -62,3 +62,21 @@ go back to up to date state
 git checkout nameofbranch 
 
 
+Revert whole commit:
+
+git reset --hard HEAD~numberoflastcommit --> removed old commit
+hard revert commit and discard changes in commit 
+if we want to revert commit but want to keep changes to correct them :
+git reset HEAD~1 = git reset --soft HEAD~1 --> changes remain there but commit is gone
+
+another way to update the commit: 
+we will merge new changes to the previous commit by following command: 
+git commit --amend
+if the commit is wrong and already pushed and we have to  revert back to correct them
+so undo commit in remote repo
+git reset --hard HEAD~1 --> local is fixed 
+git push --force --> to update the remote repo.why force because we are behind the remote repo so we have to force it to align itself with us.
+Do not do this on dev & master branch 
+###best alternative solution is to revert one
+git revert <commit hash> --> creates a new commit to revert the old commit's changes
+
