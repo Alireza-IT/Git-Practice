@@ -81,3 +81,8 @@ git push --force --> to update the remote repo.why force because we are behind t
 Do not do this on dev & master branch 
 ###best alternative solution is to revert one
 git revert <commit hash> --> creates a new commit to revert the old commit's changes
+
+
+you need to setup integration with build automation tool and git repository for ci/cd pipeline and build automation 
+for checkout code, test & build application
+or when developing Iaac config files
