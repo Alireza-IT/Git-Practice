@@ -29,7 +29,9 @@ only master branch is considered for continuous integration/delivery
 
 Merge Requests
 big feature , junior developer or expertise in different area 
+
 junior developer or expertise in different area 
+
 must be in stable version
 
 
